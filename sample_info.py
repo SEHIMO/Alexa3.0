@@ -23,10 +23,10 @@ COLLECTION_NAME = 'channel_files'  # If you are using the same database, then us
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Salut, je suis Alexa un bot de recherche de médias**
 
-Here you can search files in inline mode. Just press follwing buttons and start searching.
+Ici, vous pouvez rechercher des fichiers directement depuis Sharing Club 3.0. Appuyez simplement sur les boutons suivants et lancez la recherche.
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
-INVITE_MSG = 'Please join @.... to use this bot'
+INVITE_MSG = 'Abonnez-vous à @ .... pour utiliser ce bot'

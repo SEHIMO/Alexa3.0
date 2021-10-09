@@ -36,7 +36,7 @@ async def start(bot, message):
                 if user.status == "kicked":
                     await bot.send_message(
                         chat_id=message.from_user.id,
-                        text="Sorry Sir, You are Banned to use me.",
+                        text="Désolé, l'accès à mon utilisation vous a été interdit.",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -45,7 +45,7 @@ async def start(bot, message):
                 ident, file_id = message.text.split("_-_-_-_")
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="**Veuillez rejoindre ma chaîne de mises à jour pour utiliser ce bot!**",
+                    text="**Veuillez rejoindre Sharing Club pour utiliser ce bot!**",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
@@ -62,7 +62,7 @@ async def start(bot, message):
             except Exception:
                 await bot.send_message(
                     chat_id=message.from_user.id,
-                    text="Something went Wrong.",
+                    text="Quelque chose s'est mal passé.",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -99,7 +99,7 @@ async def start(bot, message):
         invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**Veuillez rejoindre Sharing Club pour utiliser ce bot!**",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [

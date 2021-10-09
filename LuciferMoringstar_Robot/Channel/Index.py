@@ -14,7 +14,7 @@ lock = asyncio.Lock()
 async def index_files(bot, message):
     """Save channel or group files"""
     if lock.locked():
-        await message.reply('Wait until previous process complete.')
+        await message.reply('Attendre la fin du processus précédent.')
     else:
         while True:
             last_msg = await bot.ask(text = "Forward me last message of a channel which I should save to my database.\n\nYou can forward posts from any public channel, but for private channels bot should be an admin in the channel.\n\nMake sure to forward with quotes (Not as a copy)", chat_id = message.from_user.id)
@@ -30,7 +30,7 @@ async def index_files(bot, message):
                 await last_msg.reply_text(f"This Is An Invalid Message, Either the channel is private and bot is not an admin in the forwarded chat, or you forwarded message as copy.\nError caused Due to <code>{e}</code>")
                 continue
 
-        msg = await message.reply('Processing...⏳')
+        msg = await message.reply('Traitement...⏳')
         total_files = 0
         async with lock:
             try:

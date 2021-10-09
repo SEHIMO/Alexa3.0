@@ -28,9 +28,9 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+➥ Name :  Alexa
     
-➥ Creator : [Naughty PROFESSOR](www.youtube.com/C/NaughtyPROFESSOR)
+➥ Creator : [Le Philantrope](https://t.me/Philanthrpe)
 
 ➥ Language : Python3
 

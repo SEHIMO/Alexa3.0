@@ -13,9 +13,9 @@ from .Channel import (
 HELP = """
 Basic Commads
 
-/start :- check am Alive
+/start :- Vérifier si je suis vivant
 
-Bot Owner Only
+Propriétaire du bot uniquement
 /broadcast Replay Any Message or Media
 /stats user Status
 /ban_user  click ban_user more info

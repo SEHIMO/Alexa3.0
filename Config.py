@@ -35,9 +35,9 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 default_start_msg = """
-**Hi, I'm Auto Filter V3**
+**Salut, je suis Alexa un bot de recherche de médias**
 
-Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.
+Ici, vous pouvez rechercher des fichiers en mode Inline ainsi qu'en MP. Utilisez les boutons ci-dessous pour rechercher des fichiers ou envoyez-moi le nom du fichier à rechercher.
 """
 START_MSG = environ.get('START_MSG', default_start_msg)
 

@@ -36,5 +36,5 @@ ABOUT = """
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Click Me]()
+➥ Tutorial : [Sharing Club](https://Sharing_Club)
 """

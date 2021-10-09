@@ -13,7 +13,7 @@ from .Channel import (
 HELP = """
 Basic Commads
 
-/start :- Vérifier si je suis vivant
+/start :- Pour me réveiller👩‍🦰
 
 Propriétaire du bot uniquement
 /broadcast Replay Any Message or Media

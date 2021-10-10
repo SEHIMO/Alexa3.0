@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=https://t.me/Sharing_Club)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Réessayer", callback_data=f"checksub#{file_id}")
@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 Rejoignez-nous! 🎖', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('🎖 Rejoignez-nous! 🎖', url=f'https://t.me/Sharing_Club')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=https://t.me/Sharing_Club)
                     ]
                 ]
             )

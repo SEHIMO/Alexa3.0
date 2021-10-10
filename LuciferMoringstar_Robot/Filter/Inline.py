@@ -16,7 +16,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe my channel to use the bot',
+                           switch_pm_text='Vous devez vous abonner à ma chaîne pour utiliser le bot',
                            switch_pm_parameter="subscribe")
         return
 
@@ -89,7 +89,7 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-        InlineKeyboardButton('Rejoignez-nous!', url=f'{TUTORIAL}')
+        InlineKeyboardButton('Rejoignez-nous!', url=f'https://t.me/Sharing_Club')
         ],[
         InlineKeyboardButton('🔍 Chercher à nouveau 🔎', switch_inline_query_current_chat=query)
         ]]

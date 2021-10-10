@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=https://t.me/Sharing_Club)
+                                InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Réessayer", callback_data=f"checksub#{file_id}")
@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=https://t.me/Sharing_Club)
+                        InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -331,7 +331,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('Rejoignez-nous!', url=f'{TUTORIAL}')
+            InlineKeyboardButton('Rejoignez-nous!', url=f'https://t.me/Sharing_Club')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)

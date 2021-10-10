@@ -21,7 +21,7 @@ async def filter(client, message):
             if user.status == "kicked":
                 await client.send_message(
                     chat_id=message.from_user.id,
-                    text="Sorry Sir, You are Banned to use me.",
+                    text="Désolé, l'accès à mon utilisation vous a été interdit.",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -29,7 +29,7 @@ async def filter(client, message):
         except UserNotParticipant:
             await client.send_message(
                 chat_id=message.from_user.id,
-                text="**Please Join My Updates Channel to use this Bot!**",
+                text="**Veuillez rejoindre Sharing Club pour utiliser ce bot!**",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [

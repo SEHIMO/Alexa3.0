@@ -11,19 +11,28 @@ from .Channel import (
 )
 
 HELP = """
-Commandes de base
-
-/start :- Pour me réveiller👩‍🦰
 
 Propriétaire du bot uniquement
-/broadcast Replay Any Message or Media
-/stats user Status
-/ban_user  click ban_user more info
-/unban_user click unban_user more info
-/banned_users Banned User Details
-/total How Many Files Added In Database
-/logger  Get Logs
-/delete Delete File From Database
+
+/broadcast Rejouer n'importe quel message ou média
+/ban_user Plus d'informations 
+/unban_user Plus d'informations
+/banned_users Détails des id Banni
+/stats user status
+/total Combien de fichiers ajoutés dans la base de données
+/logger  Obtenir les journaux
+/delete Supprimer le fichier de la base de données
+
+Commandes de base
+
+/start : Pour me réveiller👩‍🦰
+
+/@Alexandrinebot : Pour chercher directement un film ou une série depuis Sharing Club 3.0
+
+👉 Tu peux aussi rejoindre @VisionsTV et faire tes recherches depuis ce Groupe
+
+👉 Mieux encore ma katnice est ici @Shar_Group pour t'assister
+
 
 """
 

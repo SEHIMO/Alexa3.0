@@ -27,7 +27,7 @@ Commandes de base
 
 /start : Pour me réveiller👩‍🦰
 
-/@Alexandrinebot : Pour chercher directement un film ou une série depuis Sharing Club 3.0
+👉 Tu chercher directement un film ou une série ici depuis Sharing Club 3.0 en appuyant sur le bouton Chercher ici
 
 👉 Tu peux aussi rejoindre @VisionsTV et faire tes recherches depuis ce Groupe
 

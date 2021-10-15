@@ -27,11 +27,11 @@ Commandes de base
 
 /start : Pour me réveiller👩‍🦰
 
-👉 Tu chercher directement un film ou une série ici depuis Sharing Club 3.0 en appuyant sur le bouton Chercher ici
+👉 Tu peux chercher directement un film ou une série ici depuis Sharing Club 3.0 en appuyant sur le bouton Faire une recherche
 
 👉 Tu peux aussi rejoindre @VisionsTV et faire tes recherches depuis ce Groupe
 
-👉 Mieux encore ma katnice est ici @Shar_Group pour t'assister
+👉 Mieux encore, katnice est ici @Shar_Group pour te servir
 
 
 """

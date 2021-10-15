@@ -284,7 +284,7 @@ async def total(bot, message):
     msg = await message.reply("Traitement...⏳", quote=True)
     try:
         total = await Media.count_documents()
-        await msg.edit(f'📁 Saved files: {total}')
+        await msg.edit(f'📁 Fichiers enregistrés: {total}')
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')

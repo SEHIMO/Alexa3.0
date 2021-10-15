@@ -49,7 +49,7 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=invite_link.invite_link)
+                                InlineKeyboardButton("📢Rejoignez-nous!📢", url=invite_link.invite_link)
                             ],
                             [
                                 InlineKeyboardButton("🔄 Réessayer", callback_data=f"checksub#{file_id}")
@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('🎖 Rejoignez-nous! 🎖', url=f'https://t.me/Sharing_Club')
+                        InlineKeyboardButton('📢Rejoignez-nous!📢', url=f'https://t.me/Sharing_Club')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("📢 Rejoignez-nous! 📢", url=invite_link.invite_link)
+                        InlineKeyboardButton("📢Rejoignez-nous!📢", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -117,8 +117,8 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("Chercher ici", switch_inline_query_current_chat='')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("Aides", callback_data="help"),
+                InlineKeyboardButton("À Propos", callback_data="about")
                 ]]
             )
         )
@@ -171,7 +171,7 @@ async def sts(c, m):
         await m.delete()
         return
     await m.reply_text(
-        text=f"**Total Users in Database 📂:** `{await db.total_users_count()}`\n\n**Total Users with Notification Enabled 🔔 :** `{await db.total_notif_users_count()}`",
+        text=f"**Nombre total d'utilisateurs dans la BD 📂:** `{await db.total_users_count()}`\n\n**Total Users with Notification Enabled 🔔 :** `{await db.total_notif_users_count()}`",
         parse_mode="Markdown",
         quote=True
     )

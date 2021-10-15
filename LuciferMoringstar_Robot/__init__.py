@@ -11,7 +11,7 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
+Commandes de base
 
 /start :- Pour me réveiller👩‍🦰
 
@@ -30,11 +30,11 @@ Propriétaire du bot uniquement
 ABOUT = """
 ➥ Name :  Alexa
     
-➥ Creator : [Le Philantrope](https://t.me/Philanthrpe)
+➥ Creator : [Sharing Club](https://t.me/SharingClub_bot)
 
-➥ Language : Python3
+➥ Groupe : [Vision Group](https://t.me/VisionsTv)
 
 ➥ Library : Pyrogram Asyncio 1.13.0
 
-➥ Tutorial : [Sharing Club](https://Sharing_Club)
+➥ Tutorial : [Shar Club](https://t.me/Shar_Group)
 """
